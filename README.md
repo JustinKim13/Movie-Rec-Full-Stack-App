@@ -62,7 +62,7 @@ This is a full-stack note-creating application built with Django for the backend
 
 2. **Update the '.env' file with your development server url**
    ```bash
-   VITE_API_URL='PLACE YOUR URL HERE FROM TERMINAL'
+   VITE_API_URL='PLACE YOUR URL HERE FROM TERMINAL (http:// ... )'
     ```
 
 ### Frontend Setup
