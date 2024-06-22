@@ -47,3 +47,20 @@ This is a full-stack note-creating application built with Django for the backend
    ```bash
    python manage.py runserver
     ```
+
+### Frontend Setup
+
+1. **Navigate to the frontend directory**:
+   ```bash
+   cd frontend
+    ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install axios react-router-dom jwt-decode
+    ```
+
+3. **Run development server**:
+   ```bash
+   npm run dev
+    ```
