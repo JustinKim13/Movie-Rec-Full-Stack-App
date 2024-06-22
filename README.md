@@ -48,6 +48,23 @@ This is a full-stack note-creating application built with Django for the backend
    python manage.py runserver
     ```
 
+### Connecting Backend to Frontend
+
+1. **Create '.env' file in 'frontend' directory**
+   ```bash
+   touch frontend/.env
+    ```
+
+2. **Add the following line to '.env' file**
+   ```bash
+   VITE_API_URL=''
+    ```
+
+2. **Update the '.env' file with your development server url**
+   ```bash
+   VITE_API_URL='PLACE YOUR URL HERE FROM TERMINAL'
+    ```
+
 ### Frontend Setup
 
 1. **Navigate to the frontend directory**:
@@ -63,16 +80,4 @@ This is a full-stack note-creating application built with Django for the backend
 3. **Run development server**:
    ```bash
    npm run dev
-    ```
-
-### Connecting Frontend to Backend
-
-1. **Create '.env' file in 'frontend' directory**
-   ```bash
-   touch frontend/.env
-    ```
-
-2. **Add the following line to '.env' file**
-   ```bash
-   VITE_API_URL="http://127.0.0.1:8000"
     ```
