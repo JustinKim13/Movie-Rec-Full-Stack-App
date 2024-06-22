@@ -64,3 +64,15 @@ This is a full-stack note-creating application built with Django for the backend
    ```bash
    npm run dev
     ```
+
+### Connecting Frontend to Backend
+
+1. **Create '.env' file in 'frontend' directory**
+   ```bash
+   touch frontend/.env
+    ```
+
+2. **Add the following line to '.env' file**
+   ```bash
+   VITE_API_URL="http://127.0.0.1:8000"
+    ```
