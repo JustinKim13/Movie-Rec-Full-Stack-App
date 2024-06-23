@@ -81,3 +81,15 @@ This is a full-stack note-creating application built with Django for the backend
    ```bash
    npm run dev
     ```
+
+### Rerun Backend
+
+1. **Quit old backend server to reconnect with new URL**:
+   ```bash
+   cmd + c
+    ```
+
+2. **Restart backend server**:
+   ```bash
+   python manage.py runserver
+    ```
